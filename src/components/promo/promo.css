@@ -1,0 +1,39 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.promo > img {
+  margin-top: 50px;
+}
+
+.promo__list {
+  display: flex;
+  gap: 26px;
+  margin-top: 26px;
+}
+
+.promo__item > img {
+  display: block;
+  width: 667px;
+  height: 269px;
+  object-fit: cover;
+}
+
+.promo__text {
+  width: 667px;
+  height: 71px;
+  background-color: var(--black);
+
+  font-family: var(--font-family);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: center;
+  vertical-align: middle;
+
+  color: var(--white);
+}
